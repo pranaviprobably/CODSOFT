@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+
+.bgimage {
+    height:100vh;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F10-top-flower-backgrounds-for-computer-full-hd-1080p-for-pc-background-2019--861735709935278685%2F&psig=AOvVaw2mzSdPqaeCKW3tRD6k9fb5&ust=1704462729503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjg_dPww4MDFQAAAAAdAAAAABAD');
+    background-size:cover;
+    position:relative;
+}
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
